@@ -1,0 +1,89 @@
+body {
+    background-color:  hsl(47, 88%, 63%);
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+}
+
+
+.container {
+    background: hsl(0, 0%, 100%);
+    margin: 70px auto;
+    width: 14.5rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px  hsl(0, 0%, 7%);
+    overflow: hidden;
+}
+
+.illustration {
+    scale: 0.88;
+    border-radius: 7px;
+    margin-top: 4px;
+}
+
+.txt {
+    margin: 0.5rem 0.7rem 0 0.7rem;
+}
+
+.learning {
+    color:hsl(0, 0%, 7%);
+    background: hsl(47, 88%, 63%);
+    padding: 3px 8px;
+    border-radius: 3px;
+    font-size: 0.6rem;
+    font-weight: 800;
+}
+
+.publish {
+    color: hsl(0, 0%, 7%);
+    font-size: 0.6rem;
+}
+
+h3 {
+    font-size: 1rem;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+h3:hover {
+    color: hsl(47, 88%, 63%);
+}
+
+.txt-2 {
+    color: hsl(0, 0%, 42%);
+    font-size: 0.6rem;
+    margin-bottom: 0;
+    line-height: 0.93rem;
+    margin-top: -5px;
+}
+
+.profile {
+    display:flex;
+    justify-content: start;
+    margin-left: -10px;
+}
+
+.avatar {
+   scale: 0.5;
+   height: 3rem;
+}
+
+.name {
+    color: hsl(0, 0%, 7%);
+    font-size: 0.6rem;
+    font-weight: 900;
+    margin: auto 0px;
+}
+
+.attribution { 
+    font-size: 0.6875rem;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
